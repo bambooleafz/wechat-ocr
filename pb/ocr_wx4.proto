@@ -39,6 +39,6 @@ message ParseOCRRespMessage {
 	optional int32 err_code = 2;
 	optional OCRResultInfo res = 3;
 	optional ReqType rt = 4;
-	optional bytes qrcode = 5; // ��ά��ʶ��
+	optional bytes qrcode = 5; // （原文：GBK）二维码识别
 	optional bytes mmfg = 6; // what is mmfg?
 }
